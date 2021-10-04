@@ -25,3 +25,13 @@ h1, h2 {
     padding: 6px;
 }
 
+#guess-button {
+    border-radius: 40%;
+   border: 5px solid #0b7fab;
+}
+
+#user-message {
+    font-family: 'Solway', serif;
+    font-size: 1rem;
+}
+}
