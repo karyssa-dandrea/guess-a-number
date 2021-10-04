@@ -2,6 +2,21 @@
 
 ## Making a plan
 
+## HTML Elements
+header- static
+user input -- static
+button -- static
+user message -- dynamic and change based on the users guess
+
+### State
+userGuess - will hold the value of the inout field
+randomNum - will be generated at the start of every game
+
+
+
+
+
+
 (bolded steps are mandatory, unbolded are for more advanced projects)
 
 1) **Make a drawing of your app. Simple "wireframes"**
