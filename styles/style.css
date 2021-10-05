@@ -28,7 +28,7 @@ h1, h2 {
 #guess-button {
     border-radius: 30%;
    border: 5px solid #0b7fab;
-   font-size: 1rem;
+   font-size: 1.5rem;
    background-color: #f4d75e;
    font-family: 'Solway', serif;
 }
@@ -41,7 +41,7 @@ h1, h2 {
 #reset {
     border-radius: 30%;
     border: 5px solid #0b7fab;
-    font-size: 1rem;
+    font-size: 1.5rem;
     background-color: #f4d75e;
     font-family: 'Solway', serif;  
 }
