@@ -14,25 +14,25 @@ let numGuesses = 4;
 // set event listeners 
 
 guessButton.addEventListener('click', ()=>{
-numGuesses--;
+    numGuesses--;
 
-console.log(numGuesses);
-const userGuessValue = Number(userGuess.value);
-chances.textContent = numGuesses;
+    console.log(numGuesses);
+    const userGuessValue = Number(userGuess.value);
+    chances.textContent = numGuesses;
 
-if (userGuessValue === randomNum) {
-  userMessage.textContent = 'You Win!'
-} else if (numGuesses === 0){
-  userMessage.textContent = 'Out Of Guesses!'
-guessButton.disabled = true;
-} else if (userGuessValue > randomNum) {
-  userMessage.textContent = 'Guess too high!'
-} else if (userGuessValue < randomNum) {
-  userMessage.textContent = 'Guess too low!'
+    if (userGuessValue === randomNum) {
+        userMessage.textContent = 'You Win!';
+    } else if (numGuesses === 0){
+        userMessage.textContent = 'Out Of Guesses!';
+        guessButton.disabled = true;
+    } else if (userGuessValue > randomNum) {
+        userMessage.textContent = 'Guess too high!';
+    } else if (userGuessValue < randomNum) {
+        userMessage.textContent = 'Guess too low!';
 
-} 
+    } 
 
-})
+});
 
 
 

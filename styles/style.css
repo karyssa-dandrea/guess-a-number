@@ -26,12 +26,22 @@ h1, h2 {
 }
 
 #guess-button {
-    border-radius: 40%;
+    border-radius: 30%;
    border: 5px solid #0b7fab;
+   font-size: 1rem;
+   background-color: #f4d75e;
+   font-family: 'Solway', serif;
 }
 
 #user-message {
     font-family: 'Solway', serif;
     font-size: 1rem;
 }
+
+#reset {
+    border-radius: 30%;
+    border: 5px solid #0b7fab;
+    font-size: 1rem;
+    background-color: #f4d75e;
+    font-family: 'Solway', serif;  
 }
